@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  height: 100vh;
+  background: -webkit-repeating-linear-gradient(-45deg, #08131b, #021205);
+  background-size: 400%;
+}
+a:visited{color: #ffffffde;}
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+  /* transition: color .3s ease-in-out, box-shadow .3s ease-in-out; */
+}
+#error-page{
+  position: absolute;
+  top: 10%;
+  left: 15%;
+  right: 15%;
+  bottom: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+#error-page .content{
+  max-width: 600px;
+  text-align: center;
+}
+.content h2.header{
+  font-size: 18vw;
+  line-height: 1em;
+  position: relative;
+}
+.content h2.header:after{
+  position: absolute;
+  content: attr(data-text);
+  top: 0;
+  left: 0;
+  right: 0;
+  background: -webkit-repeating-linear-gradient(-45deg, #71e68e, #b8ce69, #1d7a1a, #ee8176, #b98acc, #69ce77, #9b59b6);
+  background-size: 400%;
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+  text-shadow: 1px 1px 2px rgba(255,255,255,0.25);
+  animation: animate 10s ease-in-out infinite;
+}
+@keyframes animate {
+  0%{
+    background-position: 0 0;
+  }
+  25%{
+    background-position: 100% 0;
+  }
+  50%{
+    background-position: 100% 100%;
+  }
+  75%{
+    background-position: 0% 100%;
+  }
+  100%{
+    background-position: 0% 0%;
+  }
+}
+.content h4{
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 2em;
+  max-width: 600px;
+  position: relative;
+}
+.content h4:after{
+  position: absolute;
+  content: attr(data-text);
+  top: 0;
+  left: 0;
+  right: 0;
+  text-shadow: 1px 1px 2px rgba(255,255,255,0.4);
+  /* -webkit-background-clip: text; */
+  -webkit-text-fill-color: transparent;
+}
+.content p{
+  font-size: 1.2em;
+  color: #0d0d0d;
+}
+.content .btns{
+  margin: 25px 0;
+  display: inline-flex;
+}
+.content .btns a{
+  display: inline-block;
+  margin: 0 10px;
+  text-decoration: none;
+  border: 2px solid #030e03;
+  color: #161806;
+  font-weight: 500;
+  padding: 10px 25px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+.content .btns a:hover{
+  background: #0c150324;
+  color: #fff;
+}
+.content h3.header{
+    font-size: 4vw;
+}
+.menu{
+    width: 1535px;
+    height: 41px;
+    background-color: #131621E8;
+    }
+
+    nav ul{
+        margin-left:925px;
+    }
+
+nav ul li {
+    display: inline-block;
+    /* text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+   */
+   padding: 5px 20px;
+
+    /* float: right; */
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    float: right;
+   
+
+}
+.footer{
+    
+    background: #000000de;
+    position:absolute;
+    bottom: 0px;
+    top: 718px;
+    left:0;
+    right: 0;
+    height: 50%;
+    width: 100vw;
+   
+    color:#fff;
+    padding: 0px 0px 100px 0px;
+    
+    }
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    float:right;
+    
+    
+}
+.container h2{
+    font-size: 40px;
+    /* text-align: center; */
+    margin: auto;
+    /* padding-top:2%; */
+}
+.footer-col .aboutus{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 75px;
+    margin-top: -40px;
+
+}
+.footer-col .whyfitness{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 37px;
+    margin-top: -40px;
+
+}
+.footer-col .connect{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 30px;
+    margin-top: -40px;
+
+}
+.connect1{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 27px;
+    margin-top: -94px;
+    
+
+}
+a:visited{color: #ffffffde;}
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+  /* transition: color .3s ease-in-out, box-shadow .3s ease-in-out; */
+}
+
+    </style>
+</head>
+<body>
+    
+    <div>
+        <nav class="menu">
+       
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+                <li><a href="signin.html">Sign in</a></li>
+            </ul>
+         
+    </nav>
+   </div>
+
+      <div id="error-page">
+         <div class="content">
+            <h3 class="header" data-text="">
+               About Us!
+            </h3>
+            <h4 data-text="Opps! Page not found">
+                We are fitness coach and we are here to get you the gains you dream about
+            </h4>
+            <p>
+               We take contact details and provide you best trainers in various places and
+            <br> give you choices about which workout will be the best for you 
+            </p>
+            <div class="btns">
+               <a href="home.html">Return home</a>
+               <a href="contactus.html">Report problem</a>
+            </div>
+         </div>
+      </div>
+      
+    
+</body>
+</html>
