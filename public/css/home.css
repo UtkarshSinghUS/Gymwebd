@@ -1,0 +1,117 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("abc.jpg");
+    background-size: cover;
+    overflow-x: hidden;
+}
+.menu{
+    width: 1535px;
+    height: 41px;
+    background-color: #131621E8;
+    }
+
+    nav ul{
+        margin-left:925px;
+    }
+
+nav ul li {
+    display: inline-block;
+    /* float: right; */
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    float: right;
+   
+
+}
+.text h2{
+   
+    font-size: 60px;
+    color:#fff;
+    margin-left: 130px;
+    /* text-align:center; */
+    padding: 50px 230px 0px 0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text h3{
+    font-size: 26px;
+    color: #D9D5D6FC;
+    margin-left: 130px;
+    /* text-align:center; */
+    padding: 5px 380px 0px 0px;
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text{
+    padding:70px;
+}
+.footer{
+    
+    background: #000000de;
+    position:absolute;
+    bottom: 0px;
+    top:700px;
+    left:0;
+    right: 0;
+    height: 33%;
+    width: 100vw;
+   
+    color:#fff;
+    padding: 0px 0px 100px 0px;
+    
+    }
+.container{
+    max-width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    float:right;
+    
+    
+}
+.container h2{
+    font-size: 40px;
+    /* text-align: center; */
+    margin: auto;
+    /* padding-top:2%; */
+}
+.footer-col .aboutus{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 75px;
+    margin-top: -40px;
+
+}
+.footer-col .whyfitness{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 37px;
+    margin-top: -40px;
+
+}
+.footer-col .connect{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 30px;
+    margin-top: -40px;
+
+}
+.connect1{
+    font-family: 'Poppins', sans-serif;
+    margin-left: 27px;
+    margin-top: -94px;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+
+}
+a:visited{color: #ffffffde;}
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="signin.css">
+    <script src="https://kit.fontawesome.com/8c22c77b72.js" crossorigin="anonymous"></script>
+</head>
+<body>
+{{>header}}
+   <section>
+    <div class="image">
+        <div class="join">
+            Join For Gains
+        </div>
+
+    </div>
+    <div class="blank">
+        <div class="write">
+            <div class="account">
+                Create a account
+            </div>
+            <div class="word1">
+                Create a account to enjoy all services 
+            </div>
+            <div class="word2">
+                without any ads for free
+            </div>
+            <form action="/signin" method="POST"> 
+            <div class="email">
+                <input placeholder="Email" name="email" type="email" style="width: 370px;height: 45px;border-radius: 15px;"
+                >
+            </div>
+            <div class="pass">
+                <input placeholder="Password" name="pass" type="password" style="width: 370px;height: 45px;border-radius: 15px;"
+                >
+            </div>
+            <input id="create-btn" type = "submit" value="Create Account">
+        </form>            
+        <div class="lastword">
+                Already Have An Account ?
+            </div>
+            <div class="lastword1">
+                Sign In
+            </div>
+            
+        </div>
+    </div>
+    {{>footer}} 
+   </section> 
+</body>
+</html>

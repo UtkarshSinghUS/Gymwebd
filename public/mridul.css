@@ -1,0 +1,494 @@
+body{
+	background-color: black;
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+#shipping div{
+	width: 100%;
+	height: 30px;
+	background-image: linear-gradient(to right,green,yellowgreen,yellow);
+	color: black;
+	text-align: center;
+	font-size: 1.3rem;
+	font-family: sans-serif;
+	padding: 5px;
+	padding-top: 10px;
+}
+#shipping div span{
+	color: blue;
+	padding: 10px;
+}
+#navbar{
+    display: flex;
+    align-items: center; 
+    position: sticky;
+    margin-top: -70px;
+    margin-left: -35px;
+    margin-bottom: -40px;
+    /* top: 0px; */
+}
+
+ /* #navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.7;
+} */
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family:'Baloo Bhaijaan 2', cursive;
+}
+/*
+font-family: 'Baloo Bhaijaan 2', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playball', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Vujahday Script', cursive;
+*/
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    margin-top: 5px;
+    padding: 0px 20px 0px 10px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+/* 
+#navbar ul li a:hover{
+    color: white;
+    background-color: red;
+} */
+
+body{
+    background-color: black;
+}
+
+.navtop_text{
+    color: #FAF9F6	;
+    padding-left: 6rem;
+    margin-top: -10px;
+}
+
+.navbar_box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.navtop{
+    padding: 1rem;
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navtop_text{
+    font-size: 35px;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+
+.navbar{
+    padding-left: 7rem;
+
+}
+
+.fas{
+    color: #808080;
+    padding-right: 0.5rem;
+}
+
+.navtop{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.navicons{
+    width: 8vw;
+    justify-content: space-around;
+    display: flex;
+}
+
+.box_navbar{
+    font-size: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 25px 1px 0px;
+}
+
+
+.hr_navbar{
+    opacity: 0.1;
+    margin-top: 20px;
+}
+
+.hr_navbar_2{
+    margin-top: 20px;
+    opacity: 0.1;
+}
+
+.box_navbar_text{
+    color: white;
+}
+
+header{
+	display: flex;
+	width: 100%;
+	height: 95vh;
+	margin-top: 7.7%;
+/*	margin-left: 7.7%;
+	margin-right: 7.7%;*/
+}
+#header_caption{
+	width: 50%;
+	margin-left: 40px;
+}
+#big_text{
+	color: white;
+	font-size: 4.5rem;
+	margin-bottom: 20px;
+}
+#heart_icon{
+	color: red;
+	font-size: 3.5rem;
+}
+#small_text{
+	color: yellow;
+	font-size: 3rem;
+}
+#header_image{
+	width: 40%;
+	margin-left: 25px;
+}
+#header_image img{
+	height: 80%;
+	width: 100%;
+	background-size: cover;
+	margin-top: -35px;
+}
+#main_head{
+	font-size: 3rem;
+	color: white;
+	margin-bottom: 30px;
+	margin-left: 30px;
+}
+#main_products{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.product_box{
+	height: 500px;
+	width: 21.6%;
+	box-shadow: 0px 0px 15px lightgrey;
+	border-radius: 7%;
+	margin: 20px;
+}
+.product_price{
+	text-align: center;
+}
+.product_box .product_box_img img{
+	height: 57%;
+	width: 21.3%;
+	border-top-left-radius: 7%;
+	border-top-right-radius: 7%;
+	margin-bottom: ;
+	position: absolute;
+	transition: all linear 0.7s;
+}
+.hidden_image{
+	opacity: 0;
+}
+.strike_text{
+	color: lightgrey;
+	text-decoration: line-through;
+	margin-right: 10px;
+	font-size: 1rem;
+}
+.product_box_caption{
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 20px;
+}
+.product_box_caption > span{
+	text-align: center;
+	padding: 10px;
+	display: block;
+}
+.product_box_caption .product_name{
+	color: white;
+	font-size: 1.2rem;
+	transition: text-decoration 1s;
+}
+.product_box_caption .product_price{
+	color: white;
+	font-size: 1.2rem;
+}
+.product_box_caption .add_to_cart button{
+	padding: 10px;
+	color: yellow;
+	background-color: darkslategrey;
+	border-radius: 0.5rem;
+	font-size: 1.1rem;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+.product_box:hover .product_name{
+	text-decoration: underline;
+	text-decoration-color: white;
+}
+.product_box:hover .hidden_image{
+	opacity: 1;
+}
+
+#announcement{
+	width: 70%;
+	text-align: center;
+	margin-top: 7%;
+	margin-left: 15%;
+}
+#announcement #announcement_head{
+	color: white;
+	font-size: 4rem;
+}
+#announcement #announcement_cap{
+	color: lightgrey;
+	font-size: 1.2rem;
+	margin-top: 10px;
+}
+
+#secondary_head{
+	font-size: 2.6rem;
+	color: white;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	margin-top: 100px;
+}
+#latest_products{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+#view_more{
+	text-align: center;
+}
+#view_more button{
+	background-image: linear-gradient(to right, lightgoldenrodyellow, yellow);
+	border-radius: 0.8rem;
+	color: black;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	font-size: 1.3rem;
+}
+
+#subscribe{
+	text-align: center;
+	width: 100%;
+}
+#subscribe{
+	margin-bottom: 7%;
+	margin-top: 15%;
+}
+#subscribe span{
+	display: block;
+}
+#subscribe #sub_head{
+	color: white;
+	font-weight: 500;
+	font-size: 3.8rem;
+	margin-bottom: 20px;
+}
+#subscribe #sub_cap{
+	color: lightgrey;
+	font-size: 1.2rem;
+	margin-bottom: 20px;
+}
+#subscribe form #email_tab{
+	background-color: darkgray;
+	padding: 15px;
+	border-top-left-radius: 0.8rem;
+	border-bottom-left-radius: 0.8rem;
+	width: 250px;
+	border: 1px solid darkgray;
+	color: white;
+}
+#subscribe form #email_tab::placeholder{
+	color: white;
+	font-size: 1rem;
+}
+#subscribe form #email_sub_btn{
+	background-color: darkgray;
+	padding: 15px;
+	border-top-right-radius: 0.8rem;
+	border-bottom-right-radius: 0.8rem;
+	border: 1px solid darkgray;
+	margin-left: -15px;
+	color: white;
+}
+#subscribe form input:focus{
+	outline: none;
+/*	border-top: 1px solid white;
+	border-left: 1px solid white;
+	border-bottom: 1px solid white;*/
+}
+#subscribe form button:focus{
+	outline: none;
+/*	border-top: 1px solid white;
+	border-right: 1px solid white;
+	border-bottom: 1px solid white;*/
+}
+
+/* //footer// */
+footer{
+	width: 100%;
+	background-image: linear-gradient(#414141,#000000);
+	text-align: center;
+}
+footer span{
+	display: block;
+	color: white;
+	font-size: 2.5rem;
+}
+#tabs_list ul{
+	margin-top: 15px;
+}
+#tabs_list ul li{
+	list-style: none;
+	display: inline-block;
+	color: lightgrey;
+	padding: 10px;
+	font-size: 1.2rem;
+	transition: color 1s;
+}
+#tabs_list ul li:hover{
+	border-bottom: 1px solid white;
+	color: white;
+}
+#social_icons ul{
+	margin-bottom: 40px;
+}
+#social_icons ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px;
+}
+#social_icons ul li a{
+	color: white;
+	font-size: 1.5rem;
+}
+#social_icons ul li a:hover{
+	box-shadow: 0px 0px 6px 4px white;
+	border-radius: 0.2rem;
+}
+
+#books_icon{
+	color: white;
+	margin-left: 10px;
+	font-size: 2rem;
+}
+#fire_icon{
+	color: white;
+	margin-left: 10px;
+	font-size: 2rem;
+}
+#shades{
+	margin-left: 38px;
+}
+#dare{
+	margin-left: 38px;
+}
+#harry{
+	margin-left: 34px;
+}
+#html{
+	margin-left: 38px;
+}
+#barca{
+	margin-left: 38px;
+}
+#spider{
+	margin-left: 10px;
+}
+#srt{
+	margin-left: 38px;
+}
+#Wot{
+	margin-left: 38px;
+}
+#yuvi{
+	margin-left: 36px;
+}
+#jack{
+	margin-left: 47px;
+}
+#maths{
+	margin-left: 10px;
+}
+#film{
+	margin-left: 47px;
+}
+#out{
+	margin-left: 50px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown_content {
+    display: none;
+    position: absolute;
+    background-color: darkgray;
+    box-shadow: 0px 4px 8px 7px #535547;
+    min-width: 100px;
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  .dropdown_content p a{
+  	color: black;
+  	transition: color 1s;
+  }
+  .dropdown_content p a:hover{
+  	color: red;
+  	border-bottom: 1px dotted red;
+
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .account_icon{
+    width: 20px;
+  }
+  .box_navbar:hover .hover_text_nav{
+	border-bottom: 1px dotted white;
+}
